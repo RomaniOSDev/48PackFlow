@@ -3,29 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		74D1AF362F180DFB0078A524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D1AF2C2F180DFB0078A524 /* Assets.xcassets */; };
+		74D1AF382F180DFB0078A524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D1AF302F180DFB0078A524 /* LaunchScreen.storyboard */; };
+		74D1AF392F180DFB0078A524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D1AF322F180DFB0078A524 /* Main.storyboard */; };
+		74D1AF3A2F180DFB0078A524 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF112F180DFB0078A524 /* Achievement.swift */; };
+		74D1AF3B2F180DFB0078A524 /* GearItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF122F180DFB0078A524 /* GearItem.swift */; };
+		74D1AF3C2F180DFB0078A524 /* PackingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF132F180DFB0078A524 /* PackingFlow.swift */; };
+		74D1AF3D2F180DFB0078A524 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF152F180DFB0078A524 /* AppColors.swift */; };
+		74D1AF3E2F180DFB0078A524 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF162F180DFB0078A524 /* AppSettings.swift */; };
+		74D1AF3F2F180DFB0078A524 /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF182F180DFB0078A524 /* AchievementViewModel.swift */; };
+		74D1AF402F180DFB0078A524 /* FlowBuilderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF192F180DFB0078A524 /* FlowBuilderViewModel.swift */; };
+		74D1AF412F180DFB0078A524 /* GearCatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF1A2F180DFB0078A524 /* GearCatalogViewModel.swift */; };
+		74D1AF422F180DFB0078A524 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF1B2F180DFB0078A524 /* HomeViewModel.swift */; };
+		74D1AF432F180DFB0078A524 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF1C2F180DFB0078A524 /* ScannerViewModel.swift */; };
+		74D1AF442F180DFB0078A524 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF1E2F180DFB0078A524 /* CheckLink.swift */; };
+		74D1AF452F180DFB0078A524 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF1F2F180DFB0078A524 /* InternetViewController.swift */; };
+		74D1AF462F180DFB0078A524 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF202F180DFB0078A524 /* LoaderViewController.swift */; };
+		74D1AF472F180DFB0078A524 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF222F180DFB0078A524 /* AchievementsView.swift */; };
+		74D1AF482F180DFB0078A524 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF232F180DFB0078A524 /* BarcodeScannerView.swift */; };
+		74D1AF492F180DFB0078A524 /* CustomFlowCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF242F180DFB0078A524 /* CustomFlowCreatorView.swift */; };
+		74D1AF4A2F180DFB0078A524 /* FlowBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF252F180DFB0078A524 /* FlowBuilderView.swift */; };
+		74D1AF4B2F180DFB0078A524 /* GearCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF262F180DFB0078A524 /* GearCatalogView.swift */; };
+		74D1AF4C2F180DFB0078A524 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF272F180DFB0078A524 /* HomeView.swift */; };
+		74D1AF4D2F180DFB0078A524 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF282F180DFB0078A524 /* OnboardingView.swift */; };
+		74D1AF4E2F180DFB0078A524 /* PackingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF292F180DFB0078A524 /* PackingDetailView.swift */; };
+		74D1AF4F2F180DFB0078A524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF2B2F180DFB0078A524 /* AppDelegate.swift */; };
+		74D1AF502F180DFB0078A524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF2D2F180DFB0078A524 /* ContentView.swift */; };
+		74D1AF512F180DFB0078A524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF332F180DFB0078A524 /* SceneDelegate.swift */; };
+		74D1AF522F180DFB0078A524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AF342F180DFB0078A524 /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0524CDBA1B5AC4CC7615513E /* Pods-48PackFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-48PackFlow.release.xcconfig"; path = "Target Support Files/Pods-48PackFlow/Pods-48PackFlow.release.xcconfig"; sourceTree = "<group>"; };
 		7460CBF52F1396DF0022F7B1 /* 48PackFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 48PackFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D1AF112F180DFB0078A524 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		74D1AF122F180DFB0078A524 /* GearItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearItem.swift; sourceTree = "<group>"; };
+		74D1AF132F180DFB0078A524 /* PackingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingFlow.swift; sourceTree = "<group>"; };
+		74D1AF152F180DFB0078A524 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		74D1AF162F180DFB0078A524 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		74D1AF182F180DFB0078A524 /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewModel.swift; sourceTree = "<group>"; };
+		74D1AF192F180DFB0078A524 /* FlowBuilderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBuilderViewModel.swift; sourceTree = "<group>"; };
+		74D1AF1A2F180DFB0078A524 /* GearCatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearCatalogViewModel.swift; sourceTree = "<group>"; };
+		74D1AF1B2F180DFB0078A524 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		74D1AF1C2F180DFB0078A524 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		74D1AF1E2F180DFB0078A524 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74D1AF1F2F180DFB0078A524 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74D1AF202F180DFB0078A524 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74D1AF222F180DFB0078A524 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74D1AF232F180DFB0078A524 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		74D1AF242F180DFB0078A524 /* CustomFlowCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowCreatorView.swift; sourceTree = "<group>"; };
+		74D1AF252F180DFB0078A524 /* FlowBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBuilderView.swift; sourceTree = "<group>"; };
+		74D1AF262F180DFB0078A524 /* GearCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearCatalogView.swift; sourceTree = "<group>"; };
+		74D1AF272F180DFB0078A524 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		74D1AF282F180DFB0078A524 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74D1AF292F180DFB0078A524 /* PackingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingDetailView.swift; sourceTree = "<group>"; };
+		74D1AF2B2F180DFB0078A524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74D1AF2C2F180DFB0078A524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74D1AF2D2F180DFB0078A524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74D1AF2E2F180DFB0078A524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D1AF2F2F180DFB0078A524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74D1AF312F180DFB0078A524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74D1AF332F180DFB0078A524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74D1AF342F180DFB0078A524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEF4FB24457365C2A3E35CBA /* Pods_48PackFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_48PackFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB7EC6E51BFCCC776C68E9E /* Pods-48PackFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-48PackFlow.debug.xcconfig"; path = "Target Support Files/Pods-48PackFlow/Pods-48PackFlow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7460CC2F2F1397090022F7B1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7460CBF42F1396DF0022F7B1 /* 48PackFlow */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7460CC272F1397090022F7B1 /* 48PackFlow */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7460CC2F2F1397090022F7B1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 48PackFlow; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7460CBF22F1396DF0022F7B1 /* Frameworks */ = {
@@ -50,7 +96,7 @@
 		7460CBEC2F1396DE0022F7B1 = {
 			isa = PBXGroup;
 			children = (
-				7460CC272F1397090022F7B1 /* 48PackFlow */,
+				74D1AF352F180DFB0078A524 /* 48PackFlow */,
 				7460CBF62F1396DF0022F7B1 /* Products */,
 				6A79F5D7C5E9E5306DF23C1E /* Pods */,
 				C2CC291ABF2C10099EA18837 /* Frameworks */,
@@ -63,6 +109,82 @@
 				7460CBF52F1396DF0022F7B1 /* 48PackFlow.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		74D1AF142F180DFB0078A524 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74D1AF112F180DFB0078A524 /* Achievement.swift */,
+				74D1AF122F180DFB0078A524 /* GearItem.swift */,
+				74D1AF132F180DFB0078A524 /* PackingFlow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74D1AF172F180DFB0078A524 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				74D1AF152F180DFB0078A524 /* AppColors.swift */,
+				74D1AF162F180DFB0078A524 /* AppSettings.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74D1AF1D2F180DFB0078A524 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74D1AF182F180DFB0078A524 /* AchievementViewModel.swift */,
+				74D1AF192F180DFB0078A524 /* FlowBuilderViewModel.swift */,
+				74D1AF1A2F180DFB0078A524 /* GearCatalogViewModel.swift */,
+				74D1AF1B2F180DFB0078A524 /* HomeViewModel.swift */,
+				74D1AF1C2F180DFB0078A524 /* ScannerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74D1AF212F180DFB0078A524 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74D1AF1E2F180DFB0078A524 /* CheckLink.swift */,
+				74D1AF1F2F180DFB0078A524 /* InternetViewController.swift */,
+				74D1AF202F180DFB0078A524 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74D1AF2A2F180DFB0078A524 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74D1AF212F180DFB0078A524 /* LoadingView */,
+				74D1AF222F180DFB0078A524 /* AchievementsView.swift */,
+				74D1AF232F180DFB0078A524 /* BarcodeScannerView.swift */,
+				74D1AF242F180DFB0078A524 /* CustomFlowCreatorView.swift */,
+				74D1AF252F180DFB0078A524 /* FlowBuilderView.swift */,
+				74D1AF262F180DFB0078A524 /* GearCatalogView.swift */,
+				74D1AF272F180DFB0078A524 /* HomeView.swift */,
+				74D1AF282F180DFB0078A524 /* OnboardingView.swift */,
+				74D1AF292F180DFB0078A524 /* PackingDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74D1AF352F180DFB0078A524 /* 48PackFlow */ = {
+			isa = PBXGroup;
+			children = (
+				74D1AF142F180DFB0078A524 /* Models */,
+				74D1AF172F180DFB0078A524 /* Utilities */,
+				74D1AF1D2F180DFB0078A524 /* ViewModels */,
+				74D1AF2A2F180DFB0078A524 /* Views */,
+				74D1AF2B2F180DFB0078A524 /* AppDelegate.swift */,
+				74D1AF2C2F180DFB0078A524 /* Assets.xcassets */,
+				74D1AF2D2F180DFB0078A524 /* ContentView.swift */,
+				74D1AF2E2F180DFB0078A524 /* Info.plist */,
+				74D1AF302F180DFB0078A524 /* LaunchScreen.storyboard */,
+				74D1AF322F180DFB0078A524 /* Main.storyboard */,
+				74D1AF332F180DFB0078A524 /* SceneDelegate.swift */,
+				74D1AF342F180DFB0078A524 /* ViewController.swift */,
+			);
+			path = 48PackFlow;
 			sourceTree = "<group>";
 		};
 		C2CC291ABF2C10099EA18837 /* Frameworks */ = {
@@ -88,9 +210,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7460CC272F1397090022F7B1 /* 48PackFlow */,
 			);
 			name = 48PackFlow;
 			productName = 48PackFlow;
@@ -135,6 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D1AF362F180DFB0078A524 /* Assets.xcassets in Resources */,
+				74D1AF382F180DFB0078A524 /* LaunchScreen.storyboard in Resources */,
+				74D1AF392F180DFB0078A524 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +292,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D1AF3A2F180DFB0078A524 /* Achievement.swift in Sources */,
+				74D1AF3B2F180DFB0078A524 /* GearItem.swift in Sources */,
+				74D1AF3C2F180DFB0078A524 /* PackingFlow.swift in Sources */,
+				74D1AF3D2F180DFB0078A524 /* AppColors.swift in Sources */,
+				74D1AF3E2F180DFB0078A524 /* AppSettings.swift in Sources */,
+				74D1AF3F2F180DFB0078A524 /* AchievementViewModel.swift in Sources */,
+				74D1AF402F180DFB0078A524 /* FlowBuilderViewModel.swift in Sources */,
+				74D1AF412F180DFB0078A524 /* GearCatalogViewModel.swift in Sources */,
+				74D1AF422F180DFB0078A524 /* HomeViewModel.swift in Sources */,
+				74D1AF432F180DFB0078A524 /* ScannerViewModel.swift in Sources */,
+				74D1AF442F180DFB0078A524 /* CheckLink.swift in Sources */,
+				74D1AF452F180DFB0078A524 /* InternetViewController.swift in Sources */,
+				74D1AF462F180DFB0078A524 /* LoaderViewController.swift in Sources */,
+				74D1AF472F180DFB0078A524 /* AchievementsView.swift in Sources */,
+				74D1AF482F180DFB0078A524 /* BarcodeScannerView.swift in Sources */,
+				74D1AF492F180DFB0078A524 /* CustomFlowCreatorView.swift in Sources */,
+				74D1AF4A2F180DFB0078A524 /* FlowBuilderView.swift in Sources */,
+				74D1AF4B2F180DFB0078A524 /* GearCatalogView.swift in Sources */,
+				74D1AF4C2F180DFB0078A524 /* HomeView.swift in Sources */,
+				74D1AF4D2F180DFB0078A524 /* OnboardingView.swift in Sources */,
+				74D1AF4E2F180DFB0078A524 /* PackingDetailView.swift in Sources */,
+				74D1AF4F2F180DFB0078A524 /* AppDelegate.swift in Sources */,
+				74D1AF502F180DFB0078A524 /* ContentView.swift in Sources */,
+				74D1AF512F180DFB0078A524 /* SceneDelegate.swift in Sources */,
+				74D1AF522F180DFB0078A524 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74D1AF302F180DFB0078A524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74D1AF2F2F180DFB0078A524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74D1AF322F180DFB0078A524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74D1AF312F180DFB0078A524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7460CC092F1396DF0022F7B1 /* Debug */ = {
@@ -186,6 +352,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 48PackFlow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XPack: Flow";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PackFlow needs access to your camera to scan barcodes and add gear items to your catalog.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-8PackFlow";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xan.xp4ckfl0w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +391,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 48PackFlow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XPack: Flow";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PackFlow needs access to your camera to scan barcodes and add gear items to your catalog.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +404,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-8PackFlow";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xan.xp4ckfl0w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
